@@ -1407,6 +1407,32 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 
 ### 4.3.1. Diseño de Entrevistas
 
+**Preguntas Generales**
+
+* ¿Cuál es su nombre?
+
+* ¿Cuántos años tiene?
+
+* ¿Cuál es su profesión?
+
+* ¿En qué ciudad vive?
+
+**Preguntas sobre la aplicación - Conductores de Colectivo**
+
+* Después de ver las funcionalidades de la aplicación, ¿qué impresión general le genera?
+
+* ¿Cree que una herramienta así podría ayudarle en su servicio diario? ¿Por qué?
+
+* ¿Qué funcionalidad le parece más útil para su trabajo?
+
+* ¿Considera que esta aplicación facilitaría a los usuarios conocer la información de los colectivos? ¿De qué manera?
+
+* ¿Qué tan importante es para usted poder compartir la ruta y el precio de manera clara al cliente?
+
+* ¿Le sería útil visualizar la ruta en un mapa antes de iniciarla?
+
+* ¿Cree que los usuarios confiarían más en un servicio que muestre rutas y datos organizados en una aplicación?
+
 ### 4.3.2. Registro de Entrevistas
 
 **Segmento Objetivo:** Conductores de colectivo
