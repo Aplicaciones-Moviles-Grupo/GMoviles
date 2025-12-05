@@ -1410,3 +1410,13 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 ### 4.3.2. Registro de Entrevistas
 
 ### 4.3.3. Evaluaciones según heurísticas
+
+# Conclusiones
+
+## Conclusiones y recomendaciones.
+
+## Video App Validation
+
+## Video About the product
+
+## Video About the team
