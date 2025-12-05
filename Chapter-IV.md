@@ -1450,3 +1450,174 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 - Resumen de la entrevista: <br><br> La entrevista se realizó a Luis Cutiri, un conductor de colectivo con 55 años. Durante la entrevista se presentaron al conductor las funcionalidades principales de la aplicación móvil. El entrevistado mencionó que la herramienta le sería de gran utilidad para el servicio de transporte colectivo que realiza, ya que considera que le permitiría captar a más clientes al poder compartir información clara sobre el precio y la ruta que ofrece. Explicó que, en su experiencia, muchos usuarios desconocen las rutas exactas de los colectivos, por lo que disponer de una aplicación que muestre esta información de manera accesible podría mejorar significativamente la visibilidad de su servicio. <br><br> Asimismo, el entrevistado destacó que la aplicación no solo beneficiaría a los conductores, sino también a los clientes. Según él, permitir que los usuarios visualicen previamente las rutas les facilitaría planificar sus viajes, evitar confusiones respecto a los puntos de partida y llegada, y tener mayor seguridad al conocer el trayecto antes de abordar. Consideró también que esta transparencia podría generar mayor confianza en el servicio y diferenciar a los conductores que utilicen la herramienta frente a quienes no lo hagan.
 
 ### 4.3.3. Evaluaciones según heurísticas
+
+<p style="text-align: center; font-weight: bold"> UX Heuristics & Principles Evaluation </p>
+<p style="text-align: center; font-weight: bold">Usability - Inclusive Design - Information Architecture</p>
+
+**CARRERA :** Ingeniería de Software
+
+**CURSO :** 1ACC0238 - Aplicaciones para Dispositivos Móviles
+
+**NRC :** 1821
+
+**PROFESOR :** Mayta Guillermo, Jorge Luis
+
+**AUDITOR :** Frock
+
+**CLIENTE(S) :** Frock
+
+**APP A EVALUAR:** Chapa Tu Ruta
+
+**TAREAS A EVALUAR**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas dentro de la aplicación móvil:
+
+* Registro de un usuario nuevo
+
+* Registro de un vehículo
+
+* Creación de un paradero (Stop)
+
+* Edición de un paradero
+
+* Edición de datos del vehículo
+
+* Visualización de la vista de paraderos (Stops)
+
+* Navegación entre formularios y pantallas de registro
+
+
+**ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripcion                                                                                                                                                                                     |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: Puede ser fácilmente superador por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2     | Problema menor: Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3     | Problema mayor: Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+**TABLA DE RESUMEN**
+
+| # | Problema                                                                                | Severidad | Heurística / Principio Violada(o)                              |
+|---|-----------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------|
+| 1 | Campos de FirstName y LastName tienen altura inconsistente respecto a Phone y Email     | 2         | **Usability:** Consistencia y estándares                       |
+| 2 | El título "Create Vehicle" muestra información interna no relevante ("ProfileId: {Id}") | 2         | **Information Architecture:** Is it relevant?                  |
+| 3 | Las imágenes de los formularios se muestran más pequeñas que su contenedor              | 2         | **Usability:** Diseño estético y minimalista / Consistencia    |
+| 4 | Al crear un nuevo paradero, la imagen previa sigue apareciendo en el diálogo            | 3         | **Usability:** Prevención de errores                           |
+| 5 | En edición de vehículo, los datos se guardan desordenados (placa, modelo, color)        | 4         | **Usability:** Correspondencia entre sistema y el mundo real   |
+| 6 | En la pantalla de Stops, el mapa no ocupa el espacio cuando no existen paraderos        | 2         | **Information Architecture:** Layout adaptable / Is it usable? |
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**PROBLEMA 1: Campos de FirstName y LastName tienen altura inconsistente respecto a Phone y Email**
+
+**Severidad:** 2
+
+**Heurística Violada:** Usabilidad – Consistencia y estándares
+
+**Problema:**
+
+En el formulario de registro de perfil, los campos FirstName y LastName presentan una altura mayor que los campos Phone y Email. Esto genera una interfaz visualmente inconsistente, lo que puede generar sensación de desorden o falta de interés en la aplicación.
+
+<img src="resources/chapter-4/auditoria/problema1-auditoria.png" height=400>
+
+**Recomendación:**
+
+Alinear la altura, padding interno y estilo visual de todos los campos para mantener consistencia visual dentro del formulario.
+
+<br>
+
+**PROBLEMA 2: El título "Create Vehicle" muestra información interna no relevante**
+
+**Severidad:** 2
+
+**Heurística Violada:** Information Architecture – Is it relevant?
+
+**Problema:**
+
+El formulario de creación de vehículo muestra el texto “ProfileId: {Id}”, que corresponde a información interna del sistema y que no tiene utilidad para el usuario final. Esto genera ruido visual y puede causar confusión.
+
+<img src="resources/chapter-4/auditoria/problema2-auditoria.png" height=400>
+
+**Recomendación:**
+
+Eliminar el ID del perfil del encabezado del formulario. Esta información debe manejarse internamente y no mostrarse en la UI.
+
+<br>
+
+**PROBLEMA #3: Las imágenes de los formularios se muestran más pequeñas que su contenedor**
+
+**Severidad:** 2
+
+**Heurística Violada:** Usabilidad – Diseño estético y minimalista / Consistencia
+
+**Problema:**
+
+En los formularios de registro y edición, tales como registro de paraderos, registro y edición de vehiculos, el área destinada a mostrar la imagen o la previsualización no se ocupa completamente; la imagen renderizada aparece pequeña en relación al contenedor. El usuario percibe esto como un error visual.
+
+<img src="resources/chapter-4/auditoria/problema2-auditoria.png" height=400>
+
+<img src="resources/chapter-4/auditoria/problema3-parte2.png" height=400>
+
+**Recomendación:**
+
+Usar **Modifier.fillMaxSize()** junto con **contentScale = ContentScale.Crop** para asegurar que la imagen cubra completamente el espacio asignado.
+
+<br>
+
+**PROBLEMA 4: Al crear un nuevo paradero, la imagen previa sigue apareciendo en el diálogo**
+
+**Severidad:** 3
+
+**Heurística Violada:** Usabilidad – Prevención de errores
+
+**Problema:**
+
+Cuando un usuario crea un paradero en un diálogo y luego vuelve a abrir el mismo diálogo para crear otro, la imagen del paradero anterior continúa visible. Esto sugiere que el estado no se está reiniciando correctamente, lo que puede llevar a errores involuntarios del usuario.
+
+<img src="resources/chapter-4/auditoria/problema4-parte1.png" height=400>
+<img src="resources/chapter-4/auditoria/problema4-parte2.png" height=400>
+
+**Recomendación:**
+
+Resetear los estados (imageUri, campos del formulario) cada vez que se abre el diálogo. Esto puede lograrse inicializando valores antes de mostrar el modal.
+
+<br>
+
+**PROBLEMA 5: En edición de vehículo, los datos se guardan desordenados (placa, modelo, color)**
+
+**Severidad:** 4
+
+**Heurística Violada:** Usabilidad – Correspondencia entre sistema y mundo real
+
+**Problema:**
+
+Cuando el usuario edita un vehículo, los datos se guardan de manera incorrecta: la placa aparece en el campo Color y viceversa, etc. Este error compromete la funcionalidad principal del formulario y puede generar datos incorrectos en el sistema. Este es un problema crítico que afecta la integridad de los datos del usuario.
+
+<img src="resources/chapter-4/auditoria/problema5-auditoria-parte1.png" height=400>
+<img src="resources/chapter-4/auditoria/problema5-auditoria-parte2.png" height=400>
+<img src="resources/chapter-4/auditoria/problema5-auditoria-parte3.png" height=400>
+
+**Recomendación:**
+
+Verificar la asignación de parámetros en el updateVehicle (orden de RequestBody y nombres de los campos). Asegurar que el backend reciba los campos correctos y que los nombres coincidan exactamente con la API.
+
+<br>
+
+**PROBLEMA 6: En la pantalla de Stops, el mapa no ocupa el espacio cuando no existen paraderos**
+
+**Severidad:** 2
+
+**Heurística Violada:** Information Architecture - Layout adaptable / Is it usable?
+
+**Problema:**
+
+Cuando un usuario nuevo entra a la vista de stops y aún no tiene paraderos, el mapa solo ocupa la mitad superior de la pantalla mientras que la parte inferior permanece vacía. Esto genera sensación de error visual y desaprovecha espacio.
+
+<img src="resources/chapter-4/auditoria/problema6-auditoria.png" height=400>
+
+**Recomendación:**
+
+Usar condicionales: Si no hay paraderos, mostrar el mapa ocupando Modifier.weight(1f) sin reserva de espacio para lista. Si existen paraderos, mostrar el mapa y la lista de paraderos con distribución actual.
