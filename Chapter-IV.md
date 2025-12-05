@@ -1384,3 +1384,21 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 <img src="resources/chapter-4/sprint-2/insights-network.png" alt="" height="400">
 
 <img src="assets/flutter_network.png" alt="" height="600">
+
+### 4.2.3. Sprint 3
+
+#### 4.2.3.1. Sprint Planning 3
+
+#### 4.2.3.2. Sprint Backlog 3
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
