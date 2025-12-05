@@ -1402,3 +1402,11 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+### 4.3.2. Registro de Entrevistas
+
+### 4.3.3. Evaluaciones según heurísticas
