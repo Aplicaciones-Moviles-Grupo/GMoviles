@@ -1409,4 +1409,18 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 
 ### 4.3.2. Registro de Entrevistas
 
+**Segmento Objetivo:** Conductores de colectivo
+
+#### Entrevistado N° 1
+
+![validation-interview-1.png](resources/chapter-4/validation-interview-1.png)
+
+- **Nombre:** Luis Cutiri
+- **Edad:** 55 años
+- **Ciudad:** Lima
+- **Duración:** 00:12:40
+- **Enlace de la Entrevista:** [https://shorturl.at/XCrKp](https://shorturl.at/XCrKp)
+
+- Resumen de la entrevista: <br><br> La entrevista se realizó a Luis Cutiri, un conductor de colectivo con 55 años. Durante la entrevista se presentaron al conductor las funcionalidades principales de la aplicación móvil. El entrevistado mencionó que la herramienta le sería de gran utilidad para el servicio de transporte colectivo que realiza, ya que considera que le permitiría captar a más clientes al poder compartir información clara sobre el precio y la ruta que ofrece. Explicó que, en su experiencia, muchos usuarios desconocen las rutas exactas de los colectivos, por lo que disponer de una aplicación que muestre esta información de manera accesible podría mejorar significativamente la visibilidad de su servicio. <br><br> Asimismo, el entrevistado destacó que la aplicación no solo beneficiaría a los conductores, sino también a los clientes. Según él, permitir que los usuarios visualicen previamente las rutas les facilitaría planificar sus viajes, evitar confusiones respecto a los puntos de partida y llegada, y tener mayor seguridad al conocer el trayecto antes de abordar. Consideró también que esta transparencia podría generar mayor confianza en el servicio y diferenciar a los conductores que utilicen la herramienta frente a quienes no lo hagan.
+
 ### 4.3.3. Evaluaciones según heurísticas
