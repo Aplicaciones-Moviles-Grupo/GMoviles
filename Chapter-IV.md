@@ -1387,7 +1387,62 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 
 ### 4.2.3. Sprint 3
 
+Durante este Sprint nos enfocamos en desarrollar toda la aplicación en Visual Studio Code, usando Flutter.
+
 #### 4.2.3.1. Sprint Planning 3
+
+<table>
+  <tr>
+    <td align="center" width="20%"><strong>Sprint #</strong></td>
+    <td align="center" width="80%"><strong>Sprint 3</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Date</strong></td>
+    <td align="center">[DATE]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Time</strong></td>
+    <td align="center">[TIME]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Location</strong></td>
+    <td align="center">[LOCATION]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Prepared By</strong></td>
+    <td align="center">[PREPARED BY]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Attendees</strong></td>
+    <td align="center">[ATTENDEES]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Sprint 2 Review Summary</strong></td>
+    <td align="center">[SPRINT 2 REVIEW SUMMARY]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Sprint 2 Retrospective Summary</strong></td>
+    <td align="center">[SPRINT 2 RETROSPECTIVE SUMMARY]</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Sprint 3 Goal</strong></td>
+    <td align="center">[SPRINT 3 GOAL]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Sprint 3 Velocity</strong></td>
+    <td align="center">[SPRINT 3 VELOCITY]</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Sum of Story Points</strong></td>
+    <td align="center">[SUM OF STORY POINTS]</td>
+  </tr>
+</table>
 
 #### 4.2.3.2. Sprint Backlog 3
 
