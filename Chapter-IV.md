@@ -2364,6 +2364,14 @@ Usar condicionales: Si no hay paraderos, mostrar el mapa ocupando Modifier.weigh
 
 ## Conclusiones y recomendaciones.
 
+* El análisis y desarrollo realizados permitieron comprender de forma integral la problemática central planteada en los Problem Statements: la falta de información clara, accesible y confiable sobre los paraderos, rutas, tarifas y horarios aproximados del servicio de colectivos informales entre ciudades o pueblos cercanos. A partir del proceso de Lean UX, se pudieron contrastar los Assumptions del equipo con los insights obtenidos del comportamiento real de los segmentos objetivo, validando que los usuarios efectivamente experimentan incertidumbre al movilizarse y dependen de mecanismos informales —preguntar en la calle, recomendaciones o puntos conocidos— para desplazarse.
+
+* En relación con los Business Outcomes Assumptions, se comprobó que existe un mercado desatendido compuesto por pasajeros que buscan alternativas económicas para traslados interurbanos y por conductores que carecen de medios digitales para captar pasajeros. La evidencia recopilada confirma que brindar visibilidad a la oferta actual de colectivos no solo facilita la organización del viaje para los usuarios, sino que también genera una oportunidad para mejorar la eficiencia operativa de los conductores, aportando valor tanto al lado de la demanda como al de la oferta.
+
+* Los Users Assumptions fueron en su mayoría validados: los pasajeros demostraron interés en planificar su viaje con mayor seguridad y apreciaron funcionalidades como geolocalización de paraderos, tarifas referenciales y rutas aproximadas. Asimismo, los conductores manifestaron disposición a mostrar información básica para ganar visibilidad, lo que respalda la premisa de que perfiles con datos mínimos (placa, tipo de auto, ruta habitual) pueden elevar la confianza percibida sin afectar la informalidad inherente del servicio.
+
+* La aplicación móvil implementada refleja de forma efectiva los principales aprendizajes del proceso Lean UX. Su diseño centrado en el usuario permitió crear una interfaz sencilla, rápida y accesible, reduciendo fricciones comunes en aplicaciones de transporte. La integración del mapa con paraderos, rutas estimadas y tarifas de referencia atiende directamente la necesidad de orientación de los pasajeros, mientras que la inclusión de perfiles básicos de conductores mejora la confianza sin comprometer la naturaleza flexible del servicio.
+
 ## Video App Validation
 
 ![app-validation-video-capture.png](resources/conclusions/app-validation-video-capture.png)
