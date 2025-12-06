@@ -1432,7 +1432,7 @@ Durante este Sprint nos enfocamos en desarrollar toda la aplicación en Visual S
   </tr>
   <tr>
     <td align="center"><strong>Sprint 3 Goal</strong></td>
-    <td align="center">[SPRINT 3 GOAL]</td>
+    <td align="center">Crear y publicar una aplicación móvil en Flutter que muestre de forma clara y visualmente atractiva los principales beneficios y características del producto, optimizada para su uso en dispositivos móviles.</td>
   </tr>
   <tr>
     <td align="center"><strong>Sprint 3 Velocity</strong></td>
@@ -2102,6 +2102,157 @@ Link del backend desplegado: [https://chapaturutabackend.onrender.com/swagger/in
     <td> Crea un paradero</td>
   </tr>
 </table>
+
+En esta sección del informe se presentan todos los endpoints desarrollados en el backend, detallando qué función realizan cada uno.
+
+Link del backend desplegado: [https://chapaturutabackend.onrender.com/swagger/index.html](https://chapaturutabackend.onrender.com/swagger/index.html)
+
+<table> 
+  <tr>
+    <td> <strong>Action </strong></td>
+    <td> <strong>End Point </strong></td>
+    <td align="center"> <strong>Funciones</strong> </td>
+  </tr>
+
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/auth/sign-in</td>
+    <td> Permite iniciar sesión al usuario y genera el token</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/auth/sign-up</td>
+    <td> Permite registrar a un usuario</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/users/{userId}/profile</td>
+    <td> Obtiene el perfil asociado a un usuario</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/users/{id}</td>
+    <td> Obtiene un usuario por su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/drivers/{driverId}/routes</td>
+    <td> Obtiene la lista de rutas asociadas a un perfil de conductor</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/drivers/{profileId}/vehicle/{id}</td>
+    <td> Obtiene el vehiculo de un conductor mediante su Id</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/drivers/{profileId}/vehicle/{id}</td>
+    <td> Actualiza el vehiculo de un conductor mediante su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/drivers/{profileId}/vehicle</td>
+    <td> Obtiene el vehiculo de un conductor mediante el Id del perfil</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/drivers/{profileId}/vehicle</td>
+    <td> Crea el vehículo de un conductor mediante su profileId</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/profiles/{id}</td>
+    <td> Obtiene el perfil por su Id</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/profiles/{id}</td>
+    <td> Actualiza el perfil mediante su Id</td>
+  </tr>
+
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/profiles</td>
+    <td> Crea un nuevo perfil</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /drivers</td>
+    <td> Obtiene el perfil de todos los conductores registrados</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/routes/{id}</td>
+    <td> Obtener una ruta por su Id</td>
+  </tr>
+  <tr>
+    <td> DELETE</td>
+    <td> /api/v1/routes/{id}</td>
+    <td> Elimina una ruta por su Id</td>
+  </tr>  
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes</td>
+    <td> Crea una ruta</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes/{routeId}/active</td>
+    <td> Actualiza el estado de una ruta a "Active"</td>
+  </tr>  
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes/{routeId}/inactive</td>
+    <td> Actualiza el estado de una ruta a "Inactive"</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/routes/{routeId}/stops/{id}</td>
+    <td> Obtiene un paradero de una ruta por su Id</td>
+  </tr>  
+  <tr>
+    <td> DELETE</td>
+    <td> /api/v1/routes/{routeId}/stops/{id}</td>
+    <td> Elimina un paradero de una ruta mediante su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/routes/{routeId}/stops</td>
+    <td> Obtiene todos los paraderos asociados a una ruta</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes/{routeId}/stops</td>
+    <td> Crea un paradero de una ruta</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/stops/{id}</td>
+    <td> Obtiene un paradero por su Id</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/stops/{id}</td>
+    <td> Actualiza un paradero por su Id</td>
+  </tr>
+  <tr>
+    <td> DELETE</td>
+    <td> /api/v1/stops/{id}</td>
+    <td> Elimina un paradero por su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/stops?driverId</td>
+    <td> Obtiene los paraderos asociados al perfil de un conductor</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/stops</td>
+    <td> Crea un paradero</td>
+  </tr>
+</table> 
+
+
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
