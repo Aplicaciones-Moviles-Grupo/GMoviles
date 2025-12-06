@@ -2088,6 +2088,13 @@ Link del backend desplegado: [https://chapaturutabackend.onrender.com/swagger/in
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+**Aplicación Movil - Android con JetPackCompose**
+
+Para la aplicación de Android desarrollada con JetPackCompose y Kotlin, se ha realizado el despliegue de una nueva version.
+
+![nuevo-despliegue-app-movil-version-2.png](resources/chapter-4/nuevo-despliegue-app-movil-version-2.png)
+
+
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
