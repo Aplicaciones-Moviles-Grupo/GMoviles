@@ -1,20 +1,18 @@
-# <center>COURSE PROJECT</center>
-
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>Aplicaciones para Dispositivos Móviles</strong><br>
-    <strong>Profesor: Jorge Luis Mayta Guillermo </strong><br>
-    <br>INFORME TRABAJO FINAL
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img>
 </p>
+<p align="center" style="font-size: 24px;"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
+<p align="center">
+  <strong>Ingeniería de Software</strong><br><br>    
+  <strong>Periodo 202520</strong><br><br>
+  <strong> 1ACC0238 | Aplicaciones para Dispositivos Móviles</strong><br><br>
+  <strong> NRC: 1821</strong><br><br>
+  <strong> Docente: Jorge Luis Mayta Guillermo </strong><br><br>
+</p>
+<p align="center" style="font-size: 20px;"><strong>Informe del Trabajo Final</strong></p>
+<p align="center"><strong>Startup: Frock</strong></p>
+<p align="center"><strong>Product: Chapa tu ruta</strong></p>
 
-<center>
-
-#### Startup: **Frock**
-#### Product: **Chapa tu ruta**
-
-</center>
 
 ### <center>Team  Members:</center>
 <center>
@@ -26,10 +24,8 @@
 | Fabrizio Alexander Cutiri Agüero | U201914181 |
 | Renzo José Araujo Ingunza        | U202113612 |
 
-<br> Septiembre 2025 
-</center>  
-
-<center>
+<br>
+<p align="center" style="font-size: 16px"><strong>Diciembre, 2025</strong></p>
 
 # Registro de Versiones del Informe  
 
