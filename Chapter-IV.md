@@ -1795,7 +1795,7 @@ Para el Sprint N.° 3 nos planteamos como objetivo finalizar el desarrollo y rea
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
-**Mobile Application - Flutter**<br>
+**Mobile Application - Flutter**
 
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
@@ -1856,9 +1856,9 @@ Para el Sprint N.° 3 nos planteamos como objetivo finalizar el desarrollo y rea
   </tr>
 </table>
 
-
-
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
