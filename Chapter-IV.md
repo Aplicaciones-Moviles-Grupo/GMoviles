@@ -2097,6 +2097,20 @@ Para la aplicación de Android desarrollada con JetPackCompose y Kotlin, se ha r
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
+**ChapaTuRuta - Android con JetPackCompose**
+
+**Pulse**
+
+![pulse-android-app.png](resources/chapter-4/pulse-android-app.png)
+
+**Contributors**
+
+![contributors-android-app.png](resources/chapter-4/contributors-android-app.png)
+
+**Network**
+
+![network-android-app.png](resources/chapter-4/network-android-app.png)
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
