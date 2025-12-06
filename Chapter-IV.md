@@ -1854,6 +1854,72 @@ Para el Sprint N.° 3 nos planteamos como objetivo finalizar el desarrollo y rea
     <td align="center">---</td>
     <td align="center">Nov 14, 2025</td>
   </tr>
+  
+  <!-- Repositorio ChapaTuRuta - App Movil Android JetPackCompose -->
+  <tr>
+    <td rowspan="9" align="center"> https://github.com/Aplicaciones-Moviles-Grupo/ChapaTuRuta-MobileApp </td>
+    <td align="center">main</td>
+    <td align="center">c8c7a7ba58a1157b88ce74a14b9c2431cafdb996</td>
+    <td align="center">fix(profile): fix size of register input files on register profile view</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">530bf5cf4cb8af88ef03f611a6e040fd19171959</td>
+    <td align="center">fix(vehicle): fix size of the vehicle image in the register vehicle view</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">a3c151314d7bf69201219c0c25bc47126dba8081</td>
+    <td align="center">fix(vehicle): fix size of the map on the stops view when there are no stops</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">cbb282dfbb7a57e2cba9916cda287e1b80d5a4db</td>
+    <td align="center">fix(vehicle): fix position of circular progress indicator in center of screen</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">0f8068054e5e57b59b6d07c009d801721da37c2c</td>
+    <td align="center">fix(vehicle): fix preloaded image from a previous created stop</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">c47cba418901d04a1aa60d180ae060d0f3cb5c05</td>
+    <td align="center">fix(vehicle): fix incorrect vehicle update save</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">c3e9112d433ab08cb2a2e94008b95ebe5bc3e92c</td>
+    <td align="center">fix(vehicle): fix size of input fields on edit profile view</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">0c77fbd999fee48b1815a2a97c39077512eb3bda</td>
+    <td align="center">fix(route): fix route create bug</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">3d9647114f24675e1bfcdba49213fe36b818c42d</td>
+    <td align="center">fix(vehicle): fix visualization of edit profile and vehicle with scroll state attribute</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
 </table>
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
