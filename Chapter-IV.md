@@ -1854,6 +1854,72 @@ Para el Sprint N.° 3 nos planteamos como objetivo finalizar el desarrollo y rea
     <td align="center">---</td>
     <td align="center">Nov 14, 2025</td>
   </tr>
+
+<!-- Repositorio ChapaTuRuta - App Movil Android JetPackCompose -->
+  <tr>
+    <td rowspan="9" align="center"> https://github.com/Aplicaciones-Moviles-Grupo/ChapaTuRuta-MobileApp </td>
+    <td align="center">main</td>
+    <td align="center">c8c7a7ba58a1157b88ce74a14b9c2431cafdb996</td>
+    <td align="center">fix(profile): fix size of register input files on register profile view</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">530bf5cf4cb8af88ef03f611a6e040fd19171959</td>
+    <td align="center">fix(vehicle): fix size of the vehicle image in the register vehicle view</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">a3c151314d7bf69201219c0c25bc47126dba8081</td>
+    <td align="center">fix(vehicle): fix size of the map on the stops view when there are no stops</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">cbb282dfbb7a57e2cba9916cda287e1b80d5a4db</td>
+    <td align="center">fix(vehicle): fix position of circular progress indicator in center of screen</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">0f8068054e5e57b59b6d07c009d801721da37c2c</td>
+    <td align="center">fix(vehicle): fix preloaded image from a previous created stop</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">c47cba418901d04a1aa60d180ae060d0f3cb5c05</td>
+    <td align="center">fix(vehicle): fix incorrect vehicle update save</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">c3e9112d433ab08cb2a2e94008b95ebe5bc3e92c</td>
+    <td align="center">fix(vehicle): fix size of input fields on edit profile view</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">0c77fbd999fee48b1815a2a97c39077512eb3bda</td>
+    <td align="center">fix(route): fix route create bug</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
+  <tr>
+    <td align="center">main</td>
+    <td align="center">3d9647114f24675e1bfcdba49213fe36b818c42d</td>
+    <td align="center">fix(vehicle): fix visualization of edit profile and vehicle with scroll state attribute</td>
+    <td align="center">---</td>
+    <td align="center">Dec 5, 2025</td>
+  </tr>
 </table>
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
@@ -1882,6 +1948,160 @@ https://github.com/Aplicaciones-Moviles-Grupo/Acceptance-Criteria/tree/main
 ![transporte](image-5.png)
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+En esta sección del informe se presentan todos los endpoints desarrollados en el backend, detallando que funcion realizan cada uno.
+
+Link del backend desplegado: [https://chapaturutabackend.onrender.com/swagger/index.html](https://chapaturutabackend.onrender.com/swagger/index.html)
+
+<table> 
+  <tr>
+    <td> <strong>Action </strong></td>
+    <td> <strong>End Point </strong></td>
+    <td align="center"> <strong>Funciones</strong> </td>
+  </tr>
+
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/auth/sign-in</td>
+    <td> Permite iniciar sesión al usuario y genera el token</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/auth/sign-up</td>
+    <td> Permite registrar a un usuario</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/users/{userId}/profile</td>
+    <td> Obtiene el perfil asociado a un usuario</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/users/{id}</td>
+    <td> Obtiene un usuario por su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/drivers/{driverId}/routes</td>
+    <td> Obtiene la lista de rutas asociadas a un perfil de conductor</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/drivers/{profileId}/vehicle/{id}</td>
+    <td> Obtiene el vehiculo de un conductor mediante su Id</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/drivers/{profileId}/vehicle/{id}</td>
+    <td> Actualiza el vehiculo de un conductor mediante su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/drivers/{profileId}/vehicle</td>
+    <td> Obtiene el vehiculo de un conductor mediante el Id del perfil</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/drivers/{profileId}/vehicle</td>
+    <td> Crea el vehículo de un conductor mediante su profileId</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/profiles/{id}</td>
+    <td> Obtiene el perfil por su Id</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/profiles/{id}</td>
+    <td> Actualiza el perfil mediante su Id</td>
+  </tr>
+
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/profiles</td>
+    <td> Crea un nuevo perfil</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /drivers</td>
+    <td> Obtiene el perfil de todos los conductores registrados</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/routes/{id}</td>
+    <td> Obtener una ruta por su Id</td>
+  </tr>
+  <tr>
+    <td> DELETE</td>
+    <td> /api/v1/routes/{id}</td>
+    <td> Elimina una ruta por su Id</td>
+  </tr> 
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/routes</td>
+    <td> Obtiene todas las rutas</td>
+  </tr> 
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes</td>
+    <td> Crea una ruta</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes/{routeId}/active</td>
+    <td> Actualiza el estado de una ruta a "Active"</td>
+  </tr>  
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes/{routeId}/inactive</td>
+    <td> Actualiza el estado de una ruta a "Inactive"</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/routes/{routeId}/stops/{id}</td>
+    <td> Obtiene un paradero de una ruta por su Id</td>
+  </tr>  
+  <tr>
+    <td> DELETE</td>
+    <td> /api/v1/routes/{routeId}/stops/{id}</td>
+    <td> Elimina un paradero de una ruta mediante su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/routes/{routeId}/stops</td>
+    <td> Obtiene todos los paraderos asociados a una ruta</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/routes/{routeId}/stops</td>
+    <td> Crea un paradero de una ruta</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/stops/{id}</td>
+    <td> Obtiene un paradero por su Id</td>
+  </tr>
+  <tr>
+    <td> PUT</td>
+    <td> /api/v1/stops/{id}</td>
+    <td> Actualiza un paradero por su Id</td>
+  </tr>
+  <tr>
+    <td> DELETE</td>
+    <td> /api/v1/stops/{id}</td>
+    <td> Elimina un paradero por su Id</td>
+  </tr>
+  <tr>
+    <td> GET</td>
+    <td> /api/v1/stops?driverId</td>
+    <td> Obtiene los paraderos asociados al perfil de un conductor</td>
+  </tr>
+  <tr>
+    <td> POST</td>
+    <td> /api/v1/stops</td>
+    <td> Crea un paradero</td>
+  </tr>
+</table>
 
 En esta sección del informe se presentan todos los endpoints desarrollados en el backend, detallando qué función realizan cada uno.
 
@@ -2036,7 +2256,40 @@ Link del backend desplegado: [https://chapaturutabackend.onrender.com/swagger/in
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+**Aplicación Movil - Android con JetPackCompose**
+
+Para la aplicación de Android desarrollada con JetPackCompose y Kotlin, se ha realizado el despliegue de una nueva version.
+
+![nuevo-despliegue-app-movil-version-2.png](resources/chapter-4/nuevo-despliegue-app-movil-version-2.png)
+
+**Backend**
+
+Respecto al backend, se realizó un nuevo despliegue, agregando endpoints para obtener las rutas que se mostrarán en el app de Flutter
+
+![despliegue-backend-sprint-3.png](resources/chapter-4/despliegue-backend-sprint-3.png)
+
+**Database**
+
+Tambien se realizó un nuevo despliegue de la base de datos.
+
+![despligue-database-sprint-3.png](resources/chapter-4/despligue-database-sprint-3.png)
+
+
 #### 4.2.3.8. Team Collaboration Insights during Sprint
+
+**ChapaTuRuta - Android con JetPackCompose**
+
+**Pulse**
+
+![pulse-android-app.png](resources/chapter-4/pulse-android-app.png)
+
+**Contributors**
+
+![contributors-android-app.png](resources/chapter-4/contributors-android-app.png)
+
+**Network**
+
+![network-android-app.png](resources/chapter-4/network-android-app.png)
 
 ## 4.3. Validation Interviews
 
