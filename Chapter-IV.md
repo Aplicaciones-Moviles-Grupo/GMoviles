@@ -1417,6 +1417,18 @@ Una vez finalizado la configuración del proyecto, solo se sube el APK del proye
 
 ## Video App Validation
 
+![app-validation-video-capture.png](resources/conclusions/app-validation-video-capture.png)
+
+**Enlace del Video:** [https://shorturl.at/UCsHu](https://shorturl.at/UCsHu)
+
 ## Video About the product
 
-## Video About the team
+![about-the-product-capture.png](resources/conclusions/about-the-product-capture.png)
+
+**Enlace del Video:** [https://shorturl.at/G1rir](https://shorturl.at/G1rir)
+
+## Video About the team 
+
+![about-the-team-captuer.png](resources/conclusions/about-the-team-captuer.png)
+
+**Enlace del Video:** [https://shorturl.at/BbHZ2](https://shorturl.at/BbHZ2)
